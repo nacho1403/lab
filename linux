@@ -1,0 +1,10 @@
+$ls 
+//indica cuales son los posibles directorios a abrir
+$cd nombrecarpeta
+//entra al directorio nombrecarpeta
+$cd .. 
+//vuelve un directorio para atras
+$tar -czvf nombredelacarpetacomprimida.tar.gz carpetaacomprimir
+//comprime una carpeta
+$tar -xf nombredelacarpetaadescomprimir.tar.gz
+//descomprimelacarpeta
