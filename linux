@@ -8,3 +8,12 @@ $tar -czvf nombredelacarpetacomprimida.tar.gz carpetaacomprimir
 //comprime una carpeta
 $tar -xf nombredelacarpetaadescomprimir.tar.gz
 //descomprimelacarpeta
+
+
+ gcc -Wall -Werror -Wextra -pedantic -std=c99 -c stack.c main.c
+ 
+ gcc -Wall -Werror -Wextra -pedantic -std=c99 stack.o main.o -o main
+ 
+ ./main reverse/input/example-easy.in
+ 
+ valgrind --leak-check=full ./main reverse/input/example-easy.in
